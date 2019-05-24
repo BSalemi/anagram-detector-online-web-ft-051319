@@ -12,10 +12,10 @@ class Anagram
     array_of_words.each do |w|
       if w.split("").sort == @word.split("").sort
         return w
-      else 
+      else
         return nil
-      end 
-    end 
+      end
+    end
   end
 
 end
